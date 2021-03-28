@@ -1,4 +1,4 @@
-import jokeTitle from '../../styles/assets/jokeTitle.png';
+import jokeTitle from '../../../styles/assets/jokeTitle.png';
 
 const showJoke = () => {
   document.querySelector('#main-container').innerHTML = `
