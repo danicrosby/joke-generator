@@ -1,7 +1,26 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-  text-align: center;
-  margin-top: 100px;
+.card-wrapper {
+  width: 1440px;
+  height: 1024px;
+  background: #000000; 
+}
+
+.card-body {
+  position: absolute;
+  width: 712px;
+  height: 735px;
+  left: 364px;
+  top: 161px;
+  background: #474747;
+  border-radius: 20px;
+}
+
+img {
+  margin-top: 5em;
+}
+
+button {
+  margin-top: 4em;
 }

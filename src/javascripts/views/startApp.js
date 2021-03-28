@@ -1,7 +1,9 @@
+import showJoke from '../components/jokeCard';
+import domBuilder from './domBuilder';
+
 const startApp = () => {
-  // domBuilder();
-  // showJokeCard();
-  // domEvents();
+  domBuilder();
+  showJoke();
 };
 
 export default startApp;
